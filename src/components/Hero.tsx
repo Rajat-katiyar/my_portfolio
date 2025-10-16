@@ -5,7 +5,7 @@ export function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="greeting">Hello, I'm</span>
+            <span className="greeting">Hello, I'm </span>
             <span className="name">RAJAT KATIYAR</span>
           </h1>
             <p className="hero-description">
