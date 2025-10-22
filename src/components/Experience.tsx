@@ -44,7 +44,7 @@ export function Experience() {
               <div className="experience-header">
                 <h3 className="job-title">Full Stack Developer</h3>
                 <span className="company-name">Umpteen Innovation IT Services</span>
-                <span className="duration">Sep 2024 - Feb 2025</span>
+                <span className="duration">Sep 2024 - Mar 2025</span>
               </div>
               <p className="job-description">
                 Full Stack Developer with hands-on experience in building scalable web applications using React.js for 
