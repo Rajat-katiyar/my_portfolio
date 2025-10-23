@@ -10,6 +10,7 @@ export function Experience() {
         <div className="experience-timeline">
           <div className="experience-item">
             <div className="experience-marker">
+              
               <div className="marker-dot"></div>
               <div className="marker-line"></div>
             </div>
