@@ -23,7 +23,7 @@ export function Experience() {
               <p className="job-description">
                 Proficient in designing and implementing RESTful APIs, business logic, and background services using 
                 ASP.NET MVC/Web API. Strong knowledge of MySQL with expertise in writing optimized queries, stored procedures, 
-                and database schema design. Collaborative team player with a passion for backend development and clean code practices.
+                and database schema design.Collaborative team player with a passion for backend development and clean code practices.
               </p>
               <div className="job-technologies">
                 <span className="tech-tag">ASP.NET MVC</span>
@@ -32,6 +32,7 @@ export function Experience() {
                 <span className="tech-tag">Visual Studio</span>
                 <span className="tech-tag">Git</span>
                 <span className="tech-tag">Postman</span>
+                <span className="tech-tag">MongoDB</span>
               </div>
             </div>
           </div>
