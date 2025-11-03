@@ -5,10 +5,10 @@ import Contact from '@/models/Contact'
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { name, email, subject, message } = body
+    const { name, email, mobileNumber, subject, message } = body
 
     // Validation
-    if (!name || !email || !subject || !message) {
+    if (!name || !email || !mobileNumber || !subject || !message) {
       return NextResponse.json(
         { error: 'All fields are required' },
         { status: 400 }
@@ -24,6 +24,15 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Mobile number validation
+    const mobileRegex = /^[+]?[(]?[0-9]{1,4}[)]?[-\s.]?[(]?[0-9]{1,4}[)]?[-\s.]?[0-9]{1,9}$/
+    if (!mobileRegex.test(mobileNumber)) {
+      return NextResponse.json(
+        { error: 'Invalid mobile number format' },
+        { status: 400 }
+      )
+    }
+
     // Connect to MongoDB
     await connectDB()
 
@@ -31,6 +40,7 @@ export async function POST(request: NextRequest) {
     const contact = new Contact({
       name,
       email,
+      mobileNumber,
       subject,
       message,
     })

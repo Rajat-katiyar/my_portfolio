@@ -6,6 +6,7 @@ export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    mobileNumber: '',
     subject: '',
     message: '',
   })
@@ -48,6 +49,7 @@ export function Contact() {
         setFormData({
           name: '',
           email: '',
+          mobileNumber: '',
           subject: '',
           message: '',
         })
@@ -158,6 +160,19 @@ export function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="your.email@example.com"
+                    required
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <label htmlFor="mobileNumber">Mobile Number</label>
+                  <input
+                    type="tel"
+                    id="mobileNumber"
+                    name="mobileNumber"
+                    value={formData.mobileNumber}
+                    onChange={handleChange}
+                    placeholder="+91-9876543210"
                     required
                   />
                 </div>
