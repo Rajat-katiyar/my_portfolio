@@ -6,8 +6,11 @@ export async function POST(request: NextRequest) {
   try {
     // Check if MongoDB URI is configured
     if (!process.env.MONGODB_URI) {
+      console.error('MONGODB_URI environment variable is not set')
       return NextResponse.json(
-        { error: 'Server configuration error: MongoDB connection not configured' },
+        { 
+          error: 'Server configuration error: MongoDB connection not configured. Please set MONGODB_URI environment variable in Vercel project settings.' 
+        },
         { status: 500 }
       )
     }
@@ -42,7 +45,17 @@ export async function POST(request: NextRequest) {
     }
 
     // Connect to MongoDB
-    await connectDB()
+    try {
+      await connectDB()
+    } catch (dbError: any) {
+      console.error('MongoDB connection error:', dbError)
+      return NextResponse.json(
+        { 
+          error: 'Database connection failed. Please check MongoDB configuration.' 
+        },
+        { status: 500 }
+      )
+    }
 
     // Create and save contact
     const contact = new Contact({
@@ -70,6 +83,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { error: 'Duplicate entry' },
         { status: 400 }
+      )
+    }
+
+    // Handle MongoDB connection errors
+    if (error.message && error.message.includes('MONGODB_URI')) {
+      return NextResponse.json(
+        { 
+          error: 'Database configuration error. Please set MONGODB_URI environment variable in Vercel project settings.' 
+        },
+        { status: 500 }
       )
     }
 
