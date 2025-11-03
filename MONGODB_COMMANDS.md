@@ -5,7 +5,7 @@
 ### Step 1: Create `.env.local` file
 ```bash
 # Root directory में .env.local file बनाएं
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/portfolio?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://my-portfolio:Contact%40123@cluster0.zdko2jj.mongodb.net/portfolio?retryWrites=true&w=majority
 ```
 
 ### Step 2: Run initialization script
