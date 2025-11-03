@@ -4,6 +4,14 @@ import Contact from '@/models/Contact'
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if MongoDB URI is configured
+    if (!process.env.MONGODB_URI) {
+      return NextResponse.json(
+        { error: 'Server configuration error: MongoDB connection not configured' },
+        { status: 500 }
+      )
+    }
+
     const body = await request.json()
     const { name, email, mobileNumber, subject, message } = body
 
