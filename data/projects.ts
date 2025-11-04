@@ -14,13 +14,13 @@ export const projects: Project[] = [
     demoLink: 'https://coffeeshopapp.vercel.app/',
     tags: ['React.js', 'Node.js', 'MongoDB', 'Payment Integration']
   },
-  { 
-    title: 'Netflix Clone', 
-    description: 'A fully functional Netflix clone with video streaming capabilities, user authentication, movie browsing with categories, search functionality, and personalized recommendations.', 
-    link: 'https://github.com/Rajat-katiyar/netflix-clone',
-    demoLink: 'https://netflix-clone-lake-five.vercel.app/',
-    tags: ['React.js', 'Firebase', 'TMDB API', 'Responsive Design']
-  },
+  // { 
+  //   title: 'Netflix Clone', 
+  //   description: 'A fully functional Netflix clone with video streaming capabilities, user authentication, movie browsing with categories, search functionality, and personalized recommendations.', 
+  //   link: 'https://github.com/Rajat-katiyar/netflix-clone',
+  //   demoLink: 'https://netflix-clone-lake-five.vercel.app/',
+  //   tags: ['React.js', 'Firebase', 'TMDB API', 'Responsive Design']
+  // },
   { 
     title: 'Restaurant App', 
     description: 'Complete restaurant management application featuring online ordering, table reservation system, menu management, order tracking, and admin dashboard for restaurant owners.', 
@@ -36,17 +36,17 @@ export const projects: Project[] = [
     tags: ['Next.js', 'React.js', 'TypeScript', 'Responsive Design']
   },
   { 
-    title: 'Online Doctor Appointment System', 
+    title: 'DocTalk', 
     description: 'Full-stack web application built using MERN stack (MongoDB, Express.js, React.js, Node.js) for managing doctor appointments with user authentication and appointment scheduling.', 
     link: 'https://github.com/Rajat-katiyar',
     demoLink: 'https://onlinedoctorappointmentsystem.vercel.app/',
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB']
   },
   { 
-    title: 'Responsive E-commerce Website', 
+    title: 'ClickNCart', 
     description: 'A fully responsive e-commerce website with modern UI/UX design, product catalog, shopping cart functionality, and mobile-first approach.', 
-    link: 'https://github.com/Rajat-katiyar/Responsive-E-commerce', 
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design']
+    link: 'https://github.com/Rajat-katiyar/ClickNCart.git',
+    demoLink: 'https://click-n-cart-nu.vercel.app',
+    tags: ['Next.js', 'React.js', 'TypeScript', 'Responsive Design']
   }
 ]
-
