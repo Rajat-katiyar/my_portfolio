@@ -14,6 +14,23 @@ export function Hero() {
             <a href="#projects" className="btn btn-primary">View My Work</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
           </div>
+          <div className="cv-buttons">
+            <a 
+              href="/CV.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-outline"
+            >
+              📄 View CV
+            </a>
+            <a 
+              href="/CV.pdf" 
+              download="Rajat_Katiyar_CV.pdf" 
+              className="btn btn-outline"
+            >
+              ⬇️ Download CV
+            </a>
+          </div>
         </div>
       </div>
       <div className="scroll-indicator">
