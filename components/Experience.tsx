@@ -91,7 +91,7 @@ export function Experience() {
             </div>
           </div>
 
-          <div className="experience-item">
+          {/* <div className="experience-item">
             <div className="experience-marker">
               <div className="marker-dot"></div>
             </div>
@@ -113,7 +113,7 @@ export function Experience() {
                 <span className="tech-tag">Photoshop</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
