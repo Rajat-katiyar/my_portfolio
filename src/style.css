@@ -291,18 +291,6 @@ p {
   flex-wrap: wrap;
 }
 
-.cv-buttons {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.cv-buttons .btn {
-  font-size: 0.95rem;
-  padding: 10px 20px;
-}
-
 .floating-cards {
   position: relative;
   height: 450px;
@@ -1062,17 +1050,6 @@ footer {
   
   .hero-buttons {
     justify-content: center;
-  }
-  
-  .cv-buttons {
-    justify-content: center;
-    margin-top: 16px;
-  }
-  
-  .cv-buttons .btn {
-    flex: 1;
-    min-width: 140px;
-    max-width: 200px;
   }
   
   .container {
