@@ -47,7 +47,7 @@ export const projects: Project[] = [
     description: 'A fully responsive e-commerce website with modern UI/UX design, product catalog, shopping cart functionality, and mobile-first approach.', 
     link: 'https://github.com/Rajat-katiyar/ClickNCart.git',
     demoLink: 'https://click-n-cart-nu.vercel.app',
-    tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design']
+    tags: ['Next.js', 'React.js', 'TypeScript', 'Responsive Design']
   }
 ]
 
