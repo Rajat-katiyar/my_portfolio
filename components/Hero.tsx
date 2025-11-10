@@ -14,7 +14,7 @@ export function Hero() {
             <a href="#projects" className="btn btn-primary">View My Work</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
             <a 
-              href="/CV.pdf" 
+              href="/CV-25.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-outline"

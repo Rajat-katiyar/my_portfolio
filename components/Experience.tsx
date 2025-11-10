@@ -10,29 +10,31 @@ export function Experience() {
         <div className="experience-timeline">
           <div className="experience-item">
             <div className="experience-marker">
-              
               <div className="marker-dot"></div>
               <div className="marker-line"></div>
             </div>
             <div className="experience-content">
               <div className="experience-header">
-                <h3 className="job-title">Backend Developer</h3>
+                <h3 className="job-title">Backend Software Developer</h3>
                 <span className="company-name">Salon India Technologies Pvt. Ltd.</span>
                 <span className="duration">Apr 2025 - Present</span>
               </div>
               <p className="job-description">
-                Proficient in designing and implementing RESTful APIs, business logic, and background services using 
-                ASP.NET MVC/Web API. Strong knowledge of MySQL with expertise in writing optimized queries, stored procedures, 
-                and database schema design. Collaborative team player with a passion for backend development and clean code practices.
+                Developed and maintained RESTful APIs with ASP.NET MVC/Web API, boosting backend efficiency by 20%.
+                Optimised SQL Server stored procedures and indexing to cut average query times by 40%.
+                Automated recurring validation workflows, reducing manual intervention by 25%.
+                Partnered with QA and frontend teams to reinforce CI/CD pipelines and deployment reliability.
+                Established API performance benchmarks that improved scalability across services.
               </p>
               <div className="job-technologies">
                 <span className="tech-tag">ASP.NET MVC</span>
                 <span className="tech-tag">Web API</span>
-                <span className="tech-tag">MySQL</span>
+                <span className="tech-tag">SQL Server</span>
+                <span className="tech-tag">CI/CD</span>
+                <span className="tech-tag">Clean Architecture</span>
                 <span className="tech-tag">Visual Studio</span>
                 <span className="tech-tag">Git</span>
                 <span className="tech-tag">Postman</span>
-                <span className="tech-tag">MongoDB</span>
               </div>
             </div>
           </div>
@@ -44,14 +46,41 @@ export function Experience() {
             </div>
             <div className="experience-content">
               <div className="experience-header">
-                <h3 className="job-title">Full Stack Developer</h3>
-                <span className="company-name">Umpteen Innovation IT Services</span>
-                <span className="duration">Sep 2024 - Mar 2025</span>
+                <h3 className="job-title">Operations Executive</h3>
+                <span className="company-name">Flipkart (Instakart Services Pvt. Ltd.)</span>
+                <span className="duration">Jul 2024 - Mar 2025</span>
               </div>
               <p className="job-description">
-                Full Stack Developer with hands-on experience in building scalable web applications using React.js for 
-                frontend and .NET (ASP.NET Core) for backend development. Skilled in developing RESTful APIs and backend 
-                logic using .NET Core and Entity Framework, with emphasis on performance, maintainability, and Clean Architecture.
+                Oversaw logistics workflows processing 200+ daily orders with 97% on-time delivery rates.
+                Analysed operational data to remove bottlenecks and reduce costs by 12%.
+                Optimised warehouse flow and dispatch cycles, accelerating processing times by 18%.
+                Improved delivery reliability and customer satisfaction scores by 15%.
+              </p>
+              <div className="job-technologies">
+                <span className="tech-tag">Logistics</span>
+                <span className="tech-tag">Operations Analytics</span>
+                <span className="tech-tag">Process Optimisation</span>
+                <span className="tech-tag">Power BI</span>
+                <span className="tech-tag">Team Leadership</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-marker">
+              <div className="marker-dot"></div>
+              <div className="marker-line"></div>
+            </div>
+            <div className="experience-content">
+              <div className="experience-header">
+                <h3 className="job-title">Full Stack .NET Developer</h3>
+                <span className="company-name">Umpteen Innovation IT Services</span>
+                <span className="duration">Sep 2023 - Feb 2024</span>
+              </div>
+              <p className="job-description">
+                Delivered seven scalable features combining React.js frontends with ASP.NET Core backends.
+                Architected modular services following Clean Architecture for maintainable code.
+                Fine-tuned SQL Server queries and APIs to raise response speed by 30%.
               </p>
               <div className="job-technologies">
                 <span className="tech-tag">React.js</span>
@@ -60,6 +89,7 @@ export function Experience() {
                 <span className="tech-tag">SQL Server</span>
                 <span className="tech-tag">C#</span>
                 <span className="tech-tag">Clean Architecture</span>
+                <span className="tech-tag">API Optimisation</span>
               </div>
             </div>
           </div>
@@ -71,14 +101,14 @@ export function Experience() {
             </div>
             <div className="experience-content">
               <div className="experience-header">
-                <h3 className="job-title">Frontend Developer</h3>
+                <h3 className="job-title">Frontend Developer Intern</h3>
                 <span className="company-name">InternPe</span>
                 <span className="duration">Nov 2023 - Dec 2023</span>
               </div>
               <p className="job-description">
-                Collaborated with a team of developers to build and test features for a React-based web app. 
-                Fixed front-end bugs and improved UI responsiveness across mobile and desktop. Used online repository 
-                for version control and daily stand-up contributions in sprints.
+                Built responsive UI modules with React.js, improving cross-browser performance by 25%.
+                Resolved 20+ front-end issues to enhance load times and accessibility.
+                Developed reusable component patterns aligned with modern frontend standards.
               </p>
               <div className="job-technologies">
                 <span className="tech-tag">React.js</span>
@@ -86,7 +116,58 @@ export function Experience() {
                 <span className="tech-tag">CSS3</span>
                 <span className="tech-tag">JavaScript</span>
                 <span className="tech-tag">Git</span>
+                <span className="tech-tag">Accessibility</span>
                 <span className="tech-tag">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-marker">
+              <div className="marker-dot"></div>
+              <div className="marker-line"></div>
+            </div>
+            <div className="experience-content">
+              <div className="experience-header">
+                <h3 className="job-title">Team Lead</h3>
+                <span className="company-name">Shadowfax Technologies</span>
+                <span className="duration">Aug 2023 - Oct 2023</span>
+              </div>
+              <p className="job-description">
+                Supervised a 50-member logistics team, optimising routing and cutting delivery time by 15%.
+                Implemented compliance checkpoints that reduced order error rates by 10%.
+                Coordinated vendors and field teams to elevate operational quality.
+              </p>
+              <div className="job-technologies">
+                <span className="tech-tag">Operations</span>
+                <span className="tech-tag">Route Optimisation</span>
+                <span className="tech-tag">Compliance</span>
+                <span className="tech-tag">Stakeholder Management</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-marker">
+              <div className="marker-dot"></div>
+              <div className="marker-line"></div>
+            </div>
+            <div className="experience-content">
+              <div className="experience-header">
+                <h3 className="job-title">Team Leader</h3>
+                <span className="company-name">Flipkart (Instakart Services Pvt. Ltd.)</span>
+                <span className="duration">Jul 2021 - Nov 2022</span>
+              </div>
+              <p className="job-description">
+                Managed end-to-end operations across five key zones to deliver 98% fulfilment accuracy.
+                Streamlined warehouse and transport coordination, reducing processing time by 20%.
+                Mentored 15+ employees, improving productivity and retention.
+              </p>
+              <div className="job-technologies">
+                <span className="tech-tag">Operations</span>
+                <span className="tech-tag">Team Leadership</span>
+                <span className="tech-tag">Process Excellence</span>
+                <span className="tech-tag">KPI Tracking</span>
               </div>
             </div>
           </div>
